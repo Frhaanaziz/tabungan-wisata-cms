@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs_headings",
+  "info": {
+    "singularName": "faqs-heading",
+    "pluralName": "faqs-headings",
+    "displayName": "faqs-heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true,
+      "minLength": 1,
+      "unique": true,
+      "default": "Find answers to your questions before joining a tour so that you can find out exactly what you want to know."
+    }
+  }
+}
